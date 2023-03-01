@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 30vh;
+  background-image: url(../img/money.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 4px rgb(48, 48, 48);
+}
+
+#test {
+  color: rgb(255, 255, 255);
+  line-height: 150%;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 2px 2px 3px rgb(48, 48, 48);
+}

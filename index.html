@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Sueldo Neto</title>
+  </head>
+  <body>
+    <form onsubmit="calcularSalario(event)">
+      <h1>Calculá tu Sueldo Neto</h1>
+      <span>Ingresa Tu Sueldo Bruto </span>
+      <input type="number" id="salario" name="salario" min="0" />
+      <input type="submit" id="footon" value="Calcular" />
+    </form>
+    <p id="test"></p>
+
+    <br /><br /><br />
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
